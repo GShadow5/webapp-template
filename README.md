@@ -51,8 +51,6 @@ Below is a reference of my default tech stack for webapps.
 *   **[Prisma](https://www.prisma.io/)** with **PostgreSQL**: The choice for projects that require a traditional relational database. Prisma is a next-generation ORM that provides a type-safe database client and a declarative schema, making database interactions safer and more predictable.
 *   **[PlanetScale](https://planetscale.com/)**: A MySQL-compatible, serverless database platform designed for massive scale. It is used for applications that anticipate or require extremely high levels of traffic and data, offering features like non-blocking schema changes.
 
-
-
 ## Deployment
 
 *   **[Vercel](https://vercel.com/)**: Best for Next.js projects. It provides a platform for hosting and scaling applications, offering a wide range of features and integrations. All serverless, however.
@@ -64,3 +62,9 @@ Below is a reference of my default tech stack for webapps.
 ## DNS and Hostnames
 
 *   **[Cloudflare](https://www.cloudflare.com/)**: The go-to DNS provider for everything. Don't bother using anything else.
+
+
+## Payments
+*   **[Polar](https://polar.sh/)**: For usage based billing
+*   **[Stripe](stripe.com)**: For general stuff. Still need to find the best way to integrate it seemslessly. I think Theo has a video or a sponsor about this.
+
