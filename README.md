@@ -9,6 +9,22 @@
 5. Add prettier to `.eslintrc.json` file
 6. Add prettier scripts to `package.json` file
 7. Add shadcn with `bun x shadcn@latest init`
+8. Add and initialize `convex`
+9. Add and initialize `clerk`
+10. Setup convex auth to use clerk
+11. Add `next-themes` and theme toggle component
+
+## **TO USE THIS TEMPLATE:**
+
+1. Clone this repo
+2. Run `bun install`
+3. Add an `.env.local` file with the following variables:
+    * CONVEX_DEPLOYMENT
+    * NEXT_PUBLIC_CONVEX_URL
+    * NEXT_PUBLIC_CLERK_FRONTEND_API_URL
+    * NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY
+    * CLERK_SECRET_KEY
+4. Run `bun run dev`
 
 
 # Default Tech Stack
